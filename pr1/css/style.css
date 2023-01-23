@@ -1,0 +1,351 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Robotо', sans-serif;
+}
+
+h1 {
+    margin-top: 53px;
+}
+
+h2.title {
+    margin-top: 21px;
+}
+
+.contener {
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.start {
+    height: 850px;
+    background: url(../img/header_bg.jpg) center center/cover no-repeat; 
+    padding: 39px 0 62px 0;
+}
+
+.logo .logo_icons {
+    display: block;
+    margin: 0 auto;
+}
+
+.logo .logo_tx {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.title {
+    color: #F9BF3B;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 41px;
+    line-height: 41px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.simple .title_big {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 21px;
+}
+
+.start .promo_tx {
+    color: #FFFFFF;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 23px;
+    padding: 0 13px 0 13px;
+}
+
+.start .promo_tx span {
+    color: #F9BF3B;
+    font-weight: 700;
+}
+
+.start .start_btn, .present .present_btn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 73px;
+    width: 313px;
+    height: 72px;
+    background: linear-gradient(to top, #2798B9 0%, #3AB6DA 100%);
+    border: 4px solid rgba(0, 0, 0, 0.23);
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
+    color: #FFFFFF;
+    font-size: 17px;
+    line-height: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.more {
+    margin-top: 71px;
+}
+
+.more .more_tx {
+    color: rgba(255, 255, 255, 40%);
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.more .more_img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 13px;
+}
+
+.waiting {
+    background: #EFEFEF;
+    min-height: 604px;
+    padding: 85px 0 75px 0;
+}
+
+.waiting .wait_h2, .circ_el .el_h2, .final .final_h2 {
+    color: #252525;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.final .final_h2 {
+    margin-top: 36px;
+}
+
+.circ_el .el_h2 {
+    color: white;
+}
+
+.waiting .wait_line, .circ_el .el_line {
+    margin: 0 auto;
+    margin-top: 18px;
+    background: #F9BF3B;
+    width: 220px;
+    height: 7px;
+}
+
+.waiting .wait_tx {
+    color: #4A4A4A;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.waiting_wapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.waiting .waiting_wapper .waiting_pc {
+    vertical-align: top;
+    width: 339px;
+    text-align: center;
+}
+
+.waiting .waiting_wapper .waiting_pc .waiting_pc_img {
+    width: 100%;
+}
+
+.waiting .waiting_wapper .waiting_pc .waiting_tx {
+    margin-top: 26px;
+    color: #4A4A4A;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.woman {
+    min-height: 550px;
+    padding: 108px 0 72px 0;
+}
+
+.woman .woman_h2 {
+    margin-left: 390px;
+    color: #299CBD;
+    font-weight: 900;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.final .final_h2_blue {
+    margin-top: 30px;
+    color: #299CBD;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.woman .woman_tx {
+    margin-top: 25px;
+    margin-left: 390px;
+    color: #4A4A4A;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+}
+
+.woman .woman_tx span {
+    font-weight: 700;
+}
+
+.woman .woman_img {
+    position: absolute;
+    top: 10px;
+    left: -240px;
+    z-index: -1;
+}
+
+.circ_el {
+    background: url(../img/main_icon_bg.png) center center/ cover no-repeat;
+    min-height: 445px;
+    padding: 86px 0 79px 0;
+}
+
+.circ_el .circ_wrapper {
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.circ_el .circ_wrapper .circ {
+    width: 234px;
+}
+
+.circ_el .circ_wrapper .circ_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background: #B4E2FF;
+    width: 118px;
+    height: 118px;
+    border-radius: 100%;
+}
+
+.circ_el .circ_wrapper .circ_tx {
+    margin-top: 25px;
+    text-align: center;
+    color: #EFEFEF;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.present {
+    min-height: 628px;
+    background: #EFEFEF;
+    padding: 85px 0 88px 0;
+}
+
+.present .present_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.present .present_tx {
+    text-align: center;
+    margin-top: 45px;
+    color: #252525;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+}
+
+.present .present_btn {
+    margin-top: 51px;
+}
+
+.final {
+    min-height: 512px;
+    padding: 89px 0 52px 0;
+}
+
+.final .final_pc .final_img {
+    width: 342px;
+    height: 201px;
+    margin: 0 auto;
+}
+
+.final .final_pc {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.final .final_tx {
+    text-align: center;
+    margin-top: 25px;
+    color: #4A4A4A;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 20px;
+}
+
+.footer {
+    min-height: 167px;
+    background: #1A1A1A;
+    padding: 57px 0 69px 0;
+}
+
+.footer .help_wrapper {
+    width: 407px;
+    height: 43px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.footer .help_wrapper .help .help_src, .footer .help_wrapper .konfidans .konfidans_src, .tel{
+    text-decoration: none;
+}
+
+.footer .help_wrapper .help span, .footer .help_wrapper .konfidans span, .footer .call, .footer .help_wrapper .vertical_line, .tel {
+    margin: 0 auto;
+    color: #888888;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.footer .call {
+    margin-top: -32px;
+}
+
+.footer .help_wrapper .vertical_line {
+    margin: 0 -30px 0 -30px;
+}
