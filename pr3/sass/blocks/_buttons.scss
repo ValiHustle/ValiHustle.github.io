@@ -1,0 +1,97 @@
+.button {
+    background: $main-color;
+    border-radius: 5px;
+    width: 153px;
+    height: 32px;
+    border: none;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    &_main {
+        width: 300px;
+        height: 50px;
+        font-weight: 500;
+        font-size: 16px;
+        margin-top: 40px;
+    }
+    &_submit {
+        width: 100%;
+        height: 58px;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+    &_mini {
+        width: 135px;
+        height: 44px;
+        font-size: 14px;
+        &:hover {
+            box-shadow: 3px 3px 20px $main-color;
+            border: none;
+        }
+    }
+}
+@media (max-width: 425px) {
+    .button {
+        background: $main-color;
+        border-radius: 5px;
+        width: 140px;
+        height: 28px;
+        border: none;
+        font-size: 10px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        &_main {
+            width: 250px;
+            height: 40px;
+            font-weight: 500;
+            font-size: 14px;
+            margin: 0 auto;
+            margin-top: 70px;
+        }
+        &_submit {
+            width: 90%;
+            height: 40px;
+            font-size: 14px;
+            color: #FFFFFF;
+        }
+    }    
+}
+
+@media (max-width: 375px) {
+    .button {
+        &_submit {
+            width: 85%;
+            height: 35px;
+            font-size: 12px;
+        }
+    }    
+}
+
+@media (max-width: 320px) {
+    .button {
+        background: $main-color;
+        border-radius: 5px;
+        width: 115px;
+        height: 25px;
+        border: none;
+        font-size: 9px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        &_main {
+            width: 250px;
+            height: 40px;
+            font-weight: 500;
+            font-size: 14px;
+            margin: 0 auto;
+            margin-top: 70px;
+        }
+        &_submit {
+            width: 70%;
+            height: 30px;
+            font-size: 12px;
+        }
+    }    
+}
