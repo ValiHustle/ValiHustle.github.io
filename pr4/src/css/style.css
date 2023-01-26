@@ -213,6 +213,14 @@ a {
 }
 
 @media (max-width: 475px) {
+    .aboute_txt {
+        font-size: 3.2vw;
+    }
+
+    .mail_txt, .telet_txt {
+        font-size: 3.2vw;
+    }
+    
     .carousel__inner {
         width: 25vw;
     }
