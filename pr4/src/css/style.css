@@ -135,6 +135,7 @@ li {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10vw;
+    flex-direction: row-reverse;
 }
 
 .jobs_sect {
